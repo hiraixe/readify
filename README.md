@@ -1,68 +1,48 @@
-Overview
+# Readify
 
-The eBook Website is an online platform designed for users to browse, purchase, and read eBooks conveniently. It offers a wide range of books across multiple genres, including fiction, non-fiction, academic, and self-help.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+  - [Employee Features and Usage](#user-features-and-usage)
+  - [Admin Features and Usage](#admin-features-and-usage)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 
-Features
+## Introduction
+Readify is an online platform designed for users to browse, purchase, and read eBooks conveniently. It offers a wide range of books across multiple genres, including fiction, non-fiction, academic, and self-help.
 
-User Authentication: Secure login and registration system.
+## Features
 
-eBook Library: Extensive collection of eBooks across various genres.
+### Employee Features and Usage
+- *User Authentication:* Secure login and registration system.
 
-Search & Filter: Advanced search and filtering options for easy book discovery.
+- *eBook Library:* Extensive collection of eBooks across various genres.
 
-Purchase & Download: Secure payment gateway and instant eBook downloads.
+- *Search & Filter:* Advanced search and filtering options for easy book discovery.
 
-Reading Mode: Online reading with customizable themes and font sizes.
+- *Purchase & Download:* Secure payment gateway and instant eBook downloads.
 
-Wishlist & Favorites: Save books for future reference.
+- *Reading Mode:* Online reading with customizable themes and font sizes.
 
-Reviews & Ratings: Users can rate and review books.
+- *Wishlist & Favorites:* Save books for future reference.
 
-Admin Panel: Manage books, users, and orders.
+- *Reviews & Ratings:* Users can rate and review books.
 
-Installation
+### Admin Features and Usage
+- *Admin Authentication*: Here are the details (Username: admin, Password: 123).
+- *Admin Panel:* Manage books, users, and orders.
+- *Logout*: Log out of the admin's account.
 
-Clone the repository:
+## Installation
+1. Clone the repository:
+   ```bash
+https://github.com/hiraixe/readify.git
 
-git clone https://github.com/your-repo/ebook-website.git
+2. cd readify
+3. npm install
+4. npm run dev
 
-Navigate to the project directory:
-
-cd ebook-website
-
-Install dependencies:
-
-npm install
-
-Set up the database (MySQL/PostgreSQL):
-
-npx prisma migrate dev
-
-Start the development server:
-
-npm run dev
-
-Technologies Used
-
-Frontend: React, Next.js
-
-Backend: Node.js, Express.js
-
-Database: PostgreSQL/MySQL
-
-Authentication: JWT, OAuth
-
-Payment Gateway: Stripe/PayPal
-
-Contributing
-
-We welcome contributions! Please fork the repository, create a new branch, and submit a pull request.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-For any queries or support, reach out at your-email@example.com.
+## Technologies Used
+Frontend: React
+Backend: Node.js
 
