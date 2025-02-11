@@ -14,7 +14,7 @@ Readify is an online platform designed for users to browse, purchase, and read e
 ## Features
 
 ### Employee Features and Usage
-- *User Authentication:* Secure login and registration system.
+- *User Authentication:* Login and registration system.
 
 - *eBook Library:* Extensive collection of eBooks across various genres.
 
@@ -22,7 +22,7 @@ Readify is an online platform designed for users to browse, purchase, and read e
 
 - *Purchase & Download:* Secure payment gateway and instant eBook downloads.
 
-- *Reading Mode:* Online reading with customizable themes and font sizes.
+- *Gifting:* Users can gift ebooks to other fellow readers.
 
 - *Wishlist & Favorites:* Save books for future reference.
 
